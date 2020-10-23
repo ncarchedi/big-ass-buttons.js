@@ -12,6 +12,7 @@ npm run dev
 
 ## TODO
 
+- Deploy website on [Vercel](https://vercel.com/)
 - Separate buttons from website
 - Publish npm package with buttons
 - Make buttons easily customizable
