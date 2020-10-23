@@ -150,3 +150,11 @@ body {
   color: white;
   border: none;
 }
+
+.gradient:hover {
+  color: rgb(230, 230, 230);
+}
+
+.gradient:active {
+  transform: perspective(1px) scale(0.95);
+}
