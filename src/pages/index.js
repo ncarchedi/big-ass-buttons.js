@@ -1,6 +1,5 @@
 import Head from "next/head";
-import ButtonKeyboard from "../components/ButtonKeyboard";
-import ButtonFloating from "../components/ButtonFloating";
+import Button from "../components/Button";
 
 export default function Home() {
   return (
@@ -14,22 +13,36 @@ export default function Home() {
         <h1 className="title">big-ass-buttons.js</h1>
 
         <p className="tagline">
-          Because every website needs at least one very large button to be taken
-          seriously.
+          Because making it very large is the{" "}
+          <span style={{ fontStyle: "normal", fontWeight: "bold" }}>only</span>{" "}
+          way to guarantee 100% of people click it.
         </p>
 
         <div class="examples">
-          <h2>Keyboard</h2>
-          <div className="component">
-            <ButtonKeyboard>Press Me</ButtonKeyboard>
+          <div className="example">
+            <h2>Keyboard</h2>
+            <Button type="keyboard">Press Me</Button>
           </div>
 
-          <h2>Floating</h2>
-          <div className="component">
-            <ButtonFloating>Press Me</ButtonFloating>
+          <div className="example">
+            <h2>Floating</h2>
+            <Button type="floating">Press Me</Button>
           </div>
 
-          <h2>Another</h2>
+          <div className="example">
+            <h2>Retro</h2>
+            <Button type="retro">Press Me</Button>
+          </div>
+
+          <div className="example">
+            <h2>Clean</h2>
+            <Button type="clean">Press Me</Button>
+          </div>
+
+          <div className="example">
+            <h2>Gradient</h2>
+            <Button type="gradient">Press Me</Button>
+          </div>
         </div>
       </main>
     </div>
