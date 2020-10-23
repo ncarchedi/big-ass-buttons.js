@@ -1,5 +1,6 @@
 import Head from "next/head";
 import ButtonKeyboard from "../components/ButtonKeyboard";
+import ButtonFloating from "../components/ButtonFloating";
 
 export default function Home() {
   return (
@@ -22,6 +23,13 @@ export default function Home() {
           <div className="component">
             <ButtonKeyboard>Press Me</ButtonKeyboard>
           </div>
+
+          <h2>Floating</h2>
+          <div className="component">
+            <ButtonFloating>Press Me</ButtonFloating>
+          </div>
+
+          <h2>Another</h2>
         </div>
       </main>
     </div>

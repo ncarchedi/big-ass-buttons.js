@@ -75,6 +75,11 @@ a:hover {
   padding: 0.5em 1em;
   font-size: 2rem;
   outline: none;
+  transition: 0.05s;
+}
+
+.base:hover {
+  cursor: pointer;
 }
 
 .keyboard {
@@ -85,9 +90,23 @@ a:hover {
     inset 0 -0.11em 0 0 rgba(0, 0, 0, 0.15),
     inset 0 0.05em 0 0 rgba(255, 255, 255, 0.9);
   color: rgba(0, 0, 0, 0.6);
-  transition: 0.05s;
 }
 
 .keyboard:active {
   box-shadow: none;
+  margin-top: 0.11em;
+  padding-bottom: calc(0.5em - 0.11em);
+}
+
+.floating {
+  border: none;
+  border-radius: 0.25em;
+  box-shadow: 0.4rem 0.4rem 0.1rem 0 rgba(0, 0, 0, 0.15);
+  background-color: rgb(137, 162, 189);
+  color: rgb(32, 32, 32);
+}
+
+.floating:active {
+  box-shadow: none;
+  margin: 0.4rem -0.4rem -0.4rem 0.4rem;
 }
