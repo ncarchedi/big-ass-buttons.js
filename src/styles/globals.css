@@ -146,7 +146,7 @@ body {
 }
 
 .gradient:hover {
-  color: rgb(230, 230, 230);
+  color: rgb(235, 235, 235);
 }
 
 .gradient:active {
@@ -157,9 +157,13 @@ body {
   background-color: #c53030;
   color: white;
   box-shadow: 2px 2px 0 lightgrey;
-  transition: 0.2s;
 }
 
 .hoverboard:hover {
   box-shadow: 8px 8px 0 lightgrey;
+}
+
+.hoverboard:active {
+  box-shadow: none;
+  margin: 8px -8px -8px 8px;
 }

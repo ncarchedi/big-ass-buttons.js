@@ -48,6 +48,8 @@ export default function Home() {
             <h2>Hoverboard</h2>
             <Button type="hoverboard">Press Me</Button>
           </div>
+
+          <h2>More coming soon...</h2>
         </div>
       </main>
     </div>
