@@ -18,7 +18,7 @@ export default function Home() {
           way to guarantee 100% of people click it.
         </p>
 
-        <div class="examples">
+        <div className="examples">
           <div className="example">
             <h2>Keyboard</h2>
             <Button type="keyboard">Press Me</Button>
@@ -42,6 +42,11 @@ export default function Home() {
           <div className="example">
             <h2>Gradient</h2>
             <Button type="gradient">Press Me</Button>
+          </div>
+
+          <div className="example">
+            <h2>Hoverboard</h2>
+            <Button type="hoverboard">Press Me</Button>
           </div>
         </div>
       </main>
