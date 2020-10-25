@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className="main">
-        <h1 className="title">big-ass-buttons.js</h1>
+        <h1 className="title">react-big-ass-buttons</h1>
 
         <p className="tagline">
           Because making it very large is the{" "}
